@@ -8,10 +8,10 @@ metadata:
   labels:
     app: vote
 image:
-  repository: divyanshujain11/votingapp-vote:5
+  repository: divyanshujain11/votingapp-vote
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: ""
+  tag: "6"
 
 # env:
 #   POSTGRES_USER: postgres
