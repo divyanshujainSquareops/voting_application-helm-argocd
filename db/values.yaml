@@ -11,7 +11,7 @@ image:
   repository: postgres:15-alpine
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "30"
+  tag: ""
 env:
   POSTGRES_USER: postgres
   POSTGRES_PASSWORD: postgres
