@@ -8,7 +8,7 @@ metadata:
   labels:
     app: worker
 image:
-  repository: divyanshujain11/votingapp-worker:5
+  repository: divyanshujain11/votingapp-worker
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: "4"
